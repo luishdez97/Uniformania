@@ -1,0 +1,2 @@
+rootProject.name = "Uniformania"
+include ':app'
