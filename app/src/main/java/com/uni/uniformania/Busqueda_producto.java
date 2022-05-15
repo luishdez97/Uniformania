@@ -24,7 +24,8 @@ public class Busqueda_producto extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_busqueda_producto);
-/*
+
+/* COMENTARIADO ESPERANDO A SER UTIIZADO
         listViewProducto = (ListView)findViewById(R.id.id_listview_producto);
         listViewProducto.setOnItemClickListener(new AdapterView.OnItemClickListener()
         {

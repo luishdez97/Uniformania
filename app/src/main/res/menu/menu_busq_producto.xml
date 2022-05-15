@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
-<item
-    android:id="@+id/menu_busq_prod"
-    android:title="Busqueda"
-    android:icon="@drawable/ic_busqueda_prod"
-    app:showAsAction="always"
-    app:actionViewClass="android.widget.SearchView">
-</item>
+    <item
+        android:id="@+id/menu_busq_prod"
+        android:icon="@drawable/ic_busqueda_prod"
+        android:title="Busqueda de productos"
+        app:actionViewClass="android.widget.SearchView"
+        app:showAsAction="always"></item>
 
 
 </menu>
